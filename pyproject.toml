@@ -1,36 +1,12 @@
-create a poetry file that installes these dependencies.
-give me the command that would set it up.
-colorama==0.4.6
-Flask==2.3.2
-Flask-SocketIO==5.3.4
-importlib-metadata==6.8.0
-numpy==1.24.3
-openai==1.3.3
-regex==2023.6.3
-requests==2.31.0
-tenacity==8.2.2
-tiktoken==0.4.0
-virtualenv==20.23.0
-Werkzeug==2.3.6
-Markdown==3.4.4
-Pillow==10.1.0
-Wikipedia-API==0.6.0
-To create a poetry file that installs the specified dependencies, you can follow these steps:
-
-1. Create a new file and name it `pyproject.toml`.
-
-2. Open the file and add the following content:
-
-```plaintext
+fix all the todos
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "my-poetry"
-version = "0.1.0"
-description = "My Poetry Project"
-authors = ["Your Name <your_email@example.com>"]
+name = "chat-dev"
+version = "1.1.2"
+description = "ChatDev stands as a virtual software company that operates through various intelligent agents holding different roles, including Chief Executive Officer , Chief Product Officer , Chief Technology Officer , programmer , reviewer , tester , art designer . The agents within ChatDev collaborate by participating in specialized functional seminars, including tasks such as designing, coding, testing, and documenting."
 
 [tool.poetry.dependencies]
 python = "^3.9"
